@@ -1,38 +1,129 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  padding:0%;
+  margin:0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  background:whitesmoke;
+}
+/* navbar */
+.navbar-container {
+  background:rgb(241, 113, 113);
+  padding:2px;
+  display:flex;
+  justify-content:space-between;
+}
+.brand-title{
+  display:flex;
+  margin-left:10px;
+  color:white;
+}
+.brand-title img {
+  width:45px;
+  align-self:center;
+}
+.brand-title h2{
+  align-self:center;
+}
+.navigation {
+  display:flex;
+  justify-content:space-around;
+  width:300px;
+  align-self:center;
+}
+.navigation a {
+  text-decoration:none;
+  color:white;
+}
+/* end navbar */
+
+/* footer */
+.footer-container{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+.footer-container p {
+  text-align:center;
+  color:rgba(0, 0, 0, 0.288);
+}
+/* end footer */
+
+/* header */
+.header-container h1,
+.header-container p {
   text-align: center;
 }
+/* end header */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* students box */
+.student-container{
+  display:flex;
+  flex-wrap: wrap;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.student-box {
+  background: white;
+  margin:3px;
+  width:300px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid rgb(235, 222, 222);
+  transition:0.4s;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.student-box:hover{
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.664);
 }
-
-.App-link {
-  color: #61dafb;
+.student-box button {
+  background:rgb(224, 58, 58);
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  padding:4px;
+  border-radius:8px;
+  border:1px solid rgb(243, 219, 219);
+  cursor:pointer;
+  transition:0.4s;
 }
+.student-box button:hover {
+  background: white;
+  color:black;
+}
+.student-box h1{
+  color:rgb(80, 71, 71);
+}
+/* end of students box */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* search container */
+.search-box {
+  display:flex;
+  width:400px;
+  margin-left:10px;
+}
+.search-btn {
+  position:relative;
+  margin-left:20px;
+}
+.search-btn button {
+  font-family: 'Quicksand', sans-serif;
+  position:absolute;
+  bottom:0;
+  padding:5px;
+  border:1px solid rgb(212, 195, 195);
+  border-radius:4px;
+  cursor:pointer;
+  transition:0.4s;
+}
+.search-btn button:hover {
+  background: rgb(77, 114, 236);
+  color:white;
+}
+.search-box input {
+  outline:none;
+  padding:5px;
+  border-radius:4px;
+  border:1px solid rgb(231, 212, 212);
 }

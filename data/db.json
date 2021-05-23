@@ -1,0 +1,29 @@
+{
+    "students": [
+        {
+            "name":"Paul Andres",
+            "course":"BSIT",
+            "id":1
+        },
+        {
+            "name":"Renz Mark Olaer",
+            "course":"BSIT",
+            "id":2
+        },
+        {
+            "name":"Dannabelle Minola",
+            "course":"BSCpE",
+            "id":3
+        },
+        {
+            "name":"Royce Martirez",
+            "course":"BSCpE",
+            "id":4
+        },
+        {
+            "name":"Dexter Nofies",
+            "course":"BSIT",
+            "id":5
+        }
+    ]
+}
