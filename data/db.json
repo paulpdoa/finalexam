@@ -1,29 +1,82 @@
 {
-    "students": [
-        {
-            "name":"Paul Andres",
-            "course":"BSIT",
-            "id":1
-        },
-        {
-            "name":"Renz Mark Olaer",
-            "course":"BSIT",
-            "id":2
-        },
-        {
-            "name":"Dannabelle Minola",
-            "course":"BSCpE",
-            "id":3
-        },
-        {
-            "name":"Royce Martirez",
-            "course":"BSCpE",
-            "id":4
-        },
-        {
-            "name":"Dexter Nofies",
-            "course":"BSIT",
-            "id":5
-        }
-    ]
+  "students": [
+    {
+      "firstName": "Paul",
+      "middleInitial": "D",
+      "lastName": "Andres",
+      "address": "Tanza, Cavite",
+      "contactNumber": "09214231007",
+      "emailAddress": "polopdoandres@gmail.com",
+      "birthday": "1999-02-04",
+      "age": 22,
+      "course": "BSIT",
+      "notes": "Nothing",
+      "id": 1
+    },
+    {
+      "firstName": "Renz Mark",
+      "middleInitial": "B",
+      "lastName": "Olaer",
+      "address": "Butuan City",
+      "contactNumber": "09258195717",
+      "emailAddress": "renzomarko10@gmail.com",
+      "birthday": "1999-09-22",
+      "age": 22,
+      "course": "BSIT",
+      "notes": "Nothing",
+      "id": 2
+    },
+    {
+      "firstName": "Dannabelle",
+      "middleInitial": "P",
+      "lastName": "Minola",
+      "address": "San Antonio, Zambales",
+      "contactNumber": "09152312312",
+      "emailAddress": "dannabelleminola@gmail.com",
+      "birthday": "1999-09-05",
+      "age": 22,
+      "course": "BSCpE",
+      "notes": "Nothing",
+      "id": 3
+    },
+    {
+      "firstName": "Owen",
+      "middleInitial": "P",
+      "lastName": "Amores",
+      "address": "Tondo, Manila",
+      "contactNumber": "09152121231",
+      "emailAddress": "owenamores@gmail.com",
+      "birthday": "1999-05-05",
+      "age": 21,
+      "course": "BSIT",
+      "notes": "Nothing",
+      "id": 4
+    },
+    {
+      "firstName": "Dexter",
+      "middleInitial": "A",
+      "lastName": "Nofies",
+      "address": "Dasma, Cavite",
+      "contactNumber": "09214211234",
+      "emailAddress": "dexternofies@gmail.com",
+      "birthday": "1999-04-01",
+      "age": 21,
+      "course": "BSIT",
+      "notes": "Nothing",
+      "id": 5
+    },
+    {
+      "firstName": "Royce",
+      "middleInitial": "M",
+      "lastName": "Martirez",
+      "address": "Las Pinas, Metro Manila",
+      "contactNumber": "0923123421",
+      "emailAddress": "roycemartirez@gmail.com",
+      "birthday": "1999-12-20",
+      "age": 22,
+      "course": "BSCpE",
+      "note": "Nothing to do",
+      "id": 6
+    }
+  ]
 }

@@ -3,11 +3,9 @@ import StudentList from "./StudentList";
 
 const Home = () => {
 
-   
-
     return ( 
         <div className="home-container">
-            <Header title="Student Information" />
+            <Header title="School of Engineering and Technology Students" />
             
             <div className="list-container">
                <StudentList /> 

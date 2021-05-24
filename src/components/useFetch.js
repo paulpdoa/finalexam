@@ -1,15 +1,9 @@
 import { useState, useEffect } from 'react';
-
 const useFetch = (url) => {
 
     const [pending, setPending] = useState(true);
-
     const [students, setStudents] = useState(null);
-
-    const handleDelete = (id) => {
-        const newStudent = students.filter(student => student.id !== id);
-        setStudents(newStudent);
-    }
+    const[error,setError] = useState(true);
 
     useEffect(() => {
         setTimeout(() => {
@@ -20,14 +14,17 @@ const useFetch = (url) => {
             .then(data => {
                 setStudents(data);
                 setPending(false);
+                setError(null);
             })
             .catch(err => {
-                console.log(err.message);
+                setError(err.message);
+                setPending(false);
             })
             },1000)
+            
     },[])
-    
-        return { pending, students, handleDelete }
+       
+        return { pending, students, error }
 }
  
 export default useFetch;
